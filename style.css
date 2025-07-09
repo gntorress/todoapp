@@ -1,0 +1,114 @@
+/* Base */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Body */
+body {
+  font-family: "Libertinus Mono", monospace;
+  font-weight: 400;
+  font-style: normal;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  padding: 14px;
+  min-height: 100vh;
+  background-color: #fceee9;
+  color: #667b68;
+}
+
+h1, h2 {
+  font-family: "Libertinus Mono", monospace;
+  font-weight: 400;
+  font-style: normal;
+  color: #667b68;
+}
+
+h1 {
+  text-align: center;
+}
+
+/* Layout Containers */
+form,
+section {
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+  width: 100%;
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 16px;
+  background-color: #f8d3c5;
+  border-radius: 8px;
+  box-shadow: 0 0 8px rgba(102, 123, 104, 0.1);
+}
+
+/* Form Elements */
+form textarea {
+  resize: none;
+  width: 100%;
+  min-height: 60px;
+  padding: 14px;
+  border: 1px solid #a3b899;
+  border-radius: 4px;
+  background-color: #fceee9;
+  color: #667b68;
+}
+
+form button {
+  padding: 8px 16px;
+  border: none;
+  border-radius: 4px;
+  background-color: #a3b899;
+  color: #fceee9;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+}
+
+form button:hover {
+  background-color: #667b68;
+}
+
+/* To-Do List */
+.todoContainer,
+.todo {
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+}
+
+.todo {
+  padding: 14px;
+  border: 1px solid #dde6d5;
+  border-radius: 6px;
+  background-color: #ffffff;
+  color: #667b68;
+}
+
+/*Button*/
+.btnContainer {
+  display: flex;
+  gap: 6px;
+  margin-left: auto;
+}
+
+/* iconbtn */
+.iconBtn {
+  display: grid;
+  place-items: center;
+  padding: 0 8px;
+  aspect-ratio: 1 / 1;
+  border: none;
+  border-radius: 50%;
+  background: transparent;
+  color: #667b68;
+  cursor: pointer;
+  outline: none;
+}
+
+.iconBtn:hover {
+  background-color: #dde6d5;
+}

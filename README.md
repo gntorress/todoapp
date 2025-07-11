@@ -6,11 +6,15 @@ This is a basic to do app, includes options to add, delete, and edit items. Past
 - #a3b899
 - #667b68
 
+---
+
 ### Features
 - Add to do item
 - Edit to do item
 - Delete to do item
 - View all items below the add item container
+
+---
 
   ### Future Features
   - Cross out items/checkbox
